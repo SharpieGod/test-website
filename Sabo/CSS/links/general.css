@@ -1,0 +1,63 @@
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+}
+
+.link-desc {
+    width: 550px;
+    cursor: default;
+}
+
+button,
+img {
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-size: 25px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow: 7px 7px 10px #313131a9;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 250px;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 50px;
+    right: 35%;
+}
+
+.link > .button-container > a > button {
+    box-shadow: 5px 5px 10px #313131a9;
+}
+
+.link > img {
+    position: absolute;
+    right: 50px;
+}
+
+.link > h1 {
+    position: absolute;
+    left: 50px;
+}
+
+.link-img {
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.link-img:hover {
+    transform: scale(1.3);
+}

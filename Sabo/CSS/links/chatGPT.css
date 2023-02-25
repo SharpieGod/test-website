@@ -1,0 +1,15 @@
+#ChatGPT {
+    scale: .55;
+}
+
+#visit-chat {
+    padding: 20px 40px;
+    border: 1px solid #9b9b9b;
+    background-color: #424242;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+#visit-chat:hover {
+        background-color: #727272;
+}

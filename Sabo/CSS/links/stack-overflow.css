@@ -1,0 +1,17 @@
+#stack-overflow {
+    height: 230px;
+    width: 300px;
+    scale: 0.8;
+}
+
+#visit-stack-overflow {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #F48024;
+    color: #904100;
+}
+
+#visit-stack-overflow:hover {
+    background-color: #f0a76c;
+}
